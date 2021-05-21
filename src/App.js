@@ -1,9 +1,9 @@
 import React from "react";
-import NavBar from './components/NavBar/NavBar'
-import About from './components/About/About'
-import Home from './components/Home/Home'
-import Skills from './components/Skills/Skills'
-import Contact from './components/Contact/Contact'
+import NavBar from './components/NavBar/'
+import About from './components/About/'
+import Home from './components/Home/'
+import Skills from './components/Skills/'
+import Contact from './components/Contact/'
 
 const App=() =>{
   return (
