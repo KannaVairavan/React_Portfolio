@@ -1,4 +1,4 @@
-.NavBar {
+/* .NavBar {
   background-color: #181818;
   height: 80px;
   width: 100%;
@@ -26,4 +26,20 @@
 }
 .NavBar nav ul li a:hover {
   border-bottom: 5px solid #8c1cd1;
+} */
+nav.navbar.navbar-default {
+  margin-bottom: 0;
+}
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+nav div ul li Link:hover {
+  border-bottom: 5px solid #8c1cd1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
