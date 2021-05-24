@@ -1,0 +1,45 @@
+.Skills {
+  /* background-color: black; */
+  background: rgb(91, 105, 112);
+  background: linear-gradient(
+    90deg,
+    rgba(91, 105, 112, 0.9864320728291317) 60%,
+    rgba(39, 58, 66, 0.9864320728291317) 87%
+  );
+  padding-bottom: 5%;
+  height: 830px;
+}
+.Skills p {
+  padding-left: 15%;
+  width: 80%;
+}
+.Skills .List ul {
+  color: white;
+  list-style-position: none;
+  padding: 0;
+}
+.Skills .Container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Skills .Container .List {
+  flex-basis: 33%;
+  background-color: black;
+  box-shadow: 0 0 12px 4px white;
+  border-radius: 9px;
+  margin-bottom: 2px;
+}
+.Skills .List ul li {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.Skills img {
+  margin-left: 20%;
+  height: 400px;
+  padding-bottom: 2%;
+  position: relative;
+}

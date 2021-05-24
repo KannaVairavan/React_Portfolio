@@ -1,9 +1,9 @@
 .Home {
-  background: rgb(54, 30, 70);
-  background: radial-gradient(
-    circle,
-    rgba(54, 30, 70, 1) 66%,
-    rgba(72, 46, 88, 1) 96%
+  background: rgb(91, 105, 112);
+  background: linear-gradient(
+    90deg,
+    rgba(91, 105, 112, 0.9864320728291317) 60%,
+    rgba(39, 58, 66, 0.9864320728291317) 87%
   );
   display: flex;
   height: 830px;
@@ -12,6 +12,12 @@
 }
 .Home .Code h1 {
   margin: 0;
+}
+.Home .Container .Text h2 {
+  display: flex;
+  justify-content: center;
+
+  color: rgb(45, 45, 70);
 }
 .Home .Container {
   position: absolute;
@@ -22,6 +28,8 @@
 
 .Home .Container .Hello {
   font-size: 63px;
+
+  color: rgb(45, 45, 70);
 }
 .Home .Code {
   height: 24%;
@@ -35,4 +43,19 @@
   position: absolute;
   right: 15%;
   top: 20%;
+}
+.Home .Icons {
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  padding-right: 1.5rem 0;
+}
+.Home .Icons .icon {
+  padding-right: 1.5rem 0;
+  margin-left: 3%;
+  color: white;
+}
+.Home .Icons svg path {
+  cursor: pointer;
 }

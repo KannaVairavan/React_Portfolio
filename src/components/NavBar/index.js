@@ -9,7 +9,7 @@ const NavBar=()=>{
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <ul className="navbar-nav mx-auto"> 
+                    <ul className="navbar-nav mx-auto fw-bold"> 
                         <li className="nav-item">
                             <Link
                                 to="/"
@@ -34,6 +34,15 @@ const NavBar=()=>{
                                     className={window.location.pathname === "/skills" ? "nav-link active" : "nav-link"}
                                 >
                                 Skills
+                            </Link>
+                            {/* <a href="/#skils">Skills</a> */}
+                        </li>
+                        <li className="nav-item">
+                            <Link
+                                    to="Project"
+                                    className={window.location.pathname === "/project" ? "nav-link active" : "nav-link"}
+                                >
+                                Projects
                             </Link>
                             {/* <a href="/#skils">Skills</a> */}
                         </li>

@@ -1,0 +1,58 @@
+.Contact {
+  background: rgb(91, 105, 112);
+  background: linear-gradient(
+    90deg,
+    rgba(91, 105, 112, 0.9864320728291317) 60%,
+    rgba(39, 58, 66, 0.9864320728291317) 87%
+  );
+  padding-bottom: 5%;
+  height: 830px;
+  display: flex;
+  align-items: center;
+}
+.Contact .contact-sect {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.Contact .img-sect {
+  position: relative;
+  display: flex;
+  height: 50%;
+  left: 10%;
+}
+.Contact .ContactIcons .icon {
+  padding-right: 1.5rem 0;
+  margin-left: 1%;
+  color: white;
+}
+.Contact .ContactIcons svg path {
+  cursor: pointer;
+}
+
+/* ContactItem */
+.ContactItem {
+  width: 100%;
+}
+.ContactItem .contact {
+  display: flex;
+
+  align-items: center;
+  background-color: #2b313f;
+
+  padding: 1.5rem 0;
+  color: rgb(147, 94, 233);
+}
+.ContactItem .contact .right-items {
+  margin-left: 2rem;
+}
+.ContactItem .contact img {
+  padding: 1rem;
+  border: 1px solid rgb(113, 43, 226);
+  margin-left: 2rem;
+  width: 16%;
+}
+.ContactItem .contact .right-items h6 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
