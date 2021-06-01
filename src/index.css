@@ -9,12 +9,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(91, 105, 112);
-  background: linear-gradient(
-    90deg,
-    rgba(91, 105, 112, 0.9864320728291317) 60%,
-    rgba(39, 58, 66, 0.9864320728291317) 87%
-  );
 }
 
 html,
@@ -23,6 +17,12 @@ body,
 #root > div,
 div[data-reactroot] {
   height: 100%;
+  background: rgb(91, 105, 112);
+  background: linear-gradient(
+    90deg,
+    rgba(91, 105, 112, 0.9864320728291317) 60%,
+    rgba(39, 58, 66, 0.9864320728291317) 87%
+  );
   padding: 0;
   margin: 0;
 }

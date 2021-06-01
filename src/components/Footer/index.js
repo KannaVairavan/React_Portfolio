@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer ">
-      <span>Created by Kanna Vairavan</span>
+      <span className="bg-dark">Created by Kanna Vairavan</span>
     </footer>
   );
 }

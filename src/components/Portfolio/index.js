@@ -22,7 +22,7 @@ function Portfolio() {
         setMenuItems(filteredData);
     }
     return(
-        <div className="PortfolioPage">
+        <div className="PortfolioPage container-fluid">
             <div className="title">
                 <PageHeader title={'Portfolio'}/>
             </div>

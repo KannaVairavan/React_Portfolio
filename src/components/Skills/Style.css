@@ -1,13 +1,13 @@
 .Skills {
   /* background-color: black; */
-  background: rgb(91, 105, 112);
+  /* background: rgb(91, 105, 112);
   background: linear-gradient(
     90deg,
     rgba(91, 105, 112, 0.9864320728291317) 60%,
     rgba(39, 58, 66, 0.9864320728291317) 87%
-  );
-  padding-bottom: 5%;
-  height: 800px;
+  ); */
+  /* padding-bottom: 5%; */
+  /* height: 800px; */
 }
 .Skills p {
   padding-left: 15%;
@@ -37,9 +37,7 @@
   font-size: 15px;
 }
 
-.Skills img {
-  margin-left: 20%;
-  height: 400px;
+.Skills .imgstyle {
   padding-bottom: 2%;
   position: relative;
 }

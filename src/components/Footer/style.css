@@ -1,6 +1,6 @@
 .footer {
   min-height: 100px;
-  background: #e5e5e5;
+  /* background: #e5e5e5; */
   position: relative;
 }
 
@@ -9,6 +9,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 3px;
-  background: black;
+  padding: 10px;
+  /* background: black; */
+  color: whitesmoke;
+  text-align: center;
 }

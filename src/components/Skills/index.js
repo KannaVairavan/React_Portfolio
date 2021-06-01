@@ -34,12 +34,13 @@ const totalSkills=[backendSkills, frontendSkills, otherSkills]
 
 const Skils=()=>{
     return(
-        <div className="Skills">
+        <div className="Skills container-fluid">
+            
             <PageHeader title={'What about Skills?'}/>
                 <p>
                     Below are some programming languages, toolkits, frameworks and libraries that I worked with.
                 </p>
-                <div> <img className="img-fluid p-1 p-sm-1" src={codeThinking } alt="Code Thinking"></img> </div>
+                <div> <img className="imgstyle img-fluid rounded mx-auto d-block" src={codeThinking} alt="Code Thinking"></img> </div>
                 <div className="Container">
                     
                     

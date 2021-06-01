@@ -2,7 +2,8 @@ import React from "react";
 import "./Style.css";
 import codetyping from "./../../img/coder.svg";
 import binaryimg from "./../../img/Binary-Globe-2.svg"
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import resdoc1 from "./../../doc/Kanna_Vairavan_CV.pdf"
+import { FaGithub, FaLinkedin, FaFile } from "react-icons/fa";
 
 const handleURL=(url)=>{
     return()=>window.open(url, "_blank")
@@ -24,6 +25,10 @@ const Home=()=>{
                                 onClick={handleURL("https://github.com/KannaVairavan/Portfolio.git")} className="icon"/>
                                 <FaLinkedin  size='35px' 
                                 onClick={handleURL("https://kannavairavan.github.io/Portfolio/index.html")} className="icon"/>
+                                 <a href={resdoc1} target = "_blank" className="btn btn-light btn-sm icon" role="button" data-bs-toggle="button" aria-pressed="true"><strong>Resume</strong></a>
+                                {/* <FaFile size='35px' 
+                                onClick={handleURL("./../../doc/Kanna_Vairavan_CV.pdf")} className="icon"/> */}
+                                {/* */}
                             </div>
                     </div>
                     

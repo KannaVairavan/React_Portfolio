@@ -9,8 +9,8 @@ import PageHeader from "./../PageHeader"
 
 const Contact=()=>{
     return(
-        <div className="ContactPage">
-            <div className= "container-fluid">
+        <div className="ContactPage container-fluid">
+            
                 <PageHeader title={'Contact'}/>
                
                     <div className="Contact">
@@ -26,7 +26,7 @@ const Contact=()=>{
                         
                         </div>
                     </div>
-            </div>
+            
         </div>
     );
 }

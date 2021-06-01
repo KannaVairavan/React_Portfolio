@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 const App=() =>{
   return (
     <Router>
-        <div className="App">
+        <div className="App container-fluid bgstyle">
           <NavBar/>
           <Wrapper> 
                 <Route exact path="/" component={Home} />
