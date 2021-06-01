@@ -19,7 +19,7 @@ const About=()=>{
                     
                 </div>
                 <div className="Photo">
-                    <img className="Me" src={me}alt="me"></img>
+                    <img className="Me img-fluid p-1 p-sm-1" src={me}alt="me"></img>
                 </div>
                 
             </div>

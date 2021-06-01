@@ -39,7 +39,7 @@ const Skils=()=>{
                 <p>
                     Below are some programming languages, toolkits, frameworks and libraries that I worked with.
                 </p>
-                <div> <img src={codeThinking } alt="Code Thinking"></img> </div>
+                <div> <img className="img-fluid p-1 p-sm-1" src={codeThinking } alt="Code Thinking"></img> </div>
                 <div className="Container">
                     
                     

@@ -6,6 +6,8 @@ import Home from './components/Home/'
 import Skills from './components/Skills/'
 import Contact from './components/Contact/'
 import Wrapper from "./components/Wrapper";
+import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 const App=() =>{
   return (
@@ -17,7 +19,9 @@ const App=() =>{
                 <Route exact path="/about" component={About} />
                 <Route exact path="/Skills" component={Skills} />
                 <Route exact path="/Contact" component={Contact} />
+                <Route exact path="/Portfolio" component={Portfolio} />
           </Wrapper>
+          <Footer />
         </div>
     </Router>
   );
