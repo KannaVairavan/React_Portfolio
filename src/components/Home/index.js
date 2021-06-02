@@ -3,7 +3,7 @@ import "./Style.css";
 import codetyping from "./../../img/coder.svg";
 import binaryimg from "./../../img/Binary-Globe-2.svg"
 import resdoc1 from "./../../doc/Kanna_Vairavan_CV.pdf"
-import { FaGithub, FaLinkedin, FaFile } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const handleURL=(url)=>{
     return()=>window.open(url, "_blank")
@@ -28,7 +28,7 @@ const Home=()=>{
                                 
                                 <a href={ resdoc1 } target="_blank" className="btn btn-light btn-sm icon" role="button"   aria-pressed="true">    <strong>Resume</strong></a>
                                
-                                {/* */}
+                               
                             </div>
                     </div>
                     
