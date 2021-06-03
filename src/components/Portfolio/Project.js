@@ -2,6 +2,8 @@ import prj1 from "./../../img/TradifyGIFScroll.gif";
 import prj2 from "./../../img/WD_3.PNG";
 import prj3 from "./../../img/TechBlog.gif";
 import prj4 from "./../../img/Curatio_Playlist.PNG";
+import prj5 from "./../../img/TeamMember-Outputfile.png";
+import prj6 from "./../../img/workoutTracker.gif";
 const Projects=[
     {
       "id": 1,
@@ -67,6 +69,34 @@ const Projects=[
       "features": ["Express.js", "Handlebars", "bcrypt", "Sequelize", "MySQL"],
       "deployed":"https://stormy-river-69253.herokuapp.com/",
       "link1":"https://github.com/m-llo/Project-2-Team-6"
+
+    }
+    ,
+    {
+      "id": 5,
+      "title": "TeamProfileGenerator",
+      "category": 'Javascript',
+      "image":prj5,
+      "icon1":'Repo',
+      "description": "This application allows a user to create a team roster. This application uses node.js, fs, util and inquirer to create prompts for the user to fill out team members and their information. ",
+      "userstory": " ",
+      "features": ["node.js", "util", "fs", "jest ", "inquirer "],
+      "deployed":"",
+      "link1":"https://github.com/KannaVairavan/TeamProfileGenerator.git"
+
+    }
+    ,
+    {
+      "id": 6,
+      "title": "Workout Tracker",
+      "category": 'Express',
+      "image":prj6,
+      "icon1":'Repo',
+      "description": "In this application user will be able to track their daily workouts with name, type, weight, sets, reps, distance and duration of exercise. Stats page will display chart with past seven workouts and total duration of each workouts. This application uses MongoDB Atlas connection.",
+      "userstory": " ",
+      "features": ["node.js", "Express", "mongoose", "morgan "],
+      "deployed":"https://limitless-mountain-40875.herokuapp.com/",
+      "link1":"https://github.com/KannaVairavan/Workout_Tracker.git"
 
     }
   ]

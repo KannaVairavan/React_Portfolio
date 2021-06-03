@@ -13,15 +13,21 @@ function MenuItems({menuItem}) {
                             <img className="img-fluid p-1 p-sm-1" src={item.image} alt=""/>
                             
                         </div>
+                           
+                        
+                        <p>{item.description}</p>
+                        
                         <ul className="hover-items">
                                 <li>
                                     <a href={item.link1}>{item.icon1}</a>
                                    
                                 </li>
+                                <li>
+                                    <a href={item.deployed}>{"Deployed"}</a>
+                                   
+                                </li>
                               
-                            </ul>
-                        
-                        <p>{item.description}</p>
+                        </ul>
                     </div>
                 })
             }
