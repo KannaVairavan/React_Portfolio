@@ -2,15 +2,13 @@
 
 ## _Description_
 
-\_This application includes responsive layout using Bootstrap.
-
-\_
+Updated React portfolio featuring 6 total projects.
 
 <hr>
 
 ## Home Page
 
-brief introduction of myself
+introduction Page
 
 ### <img src="./assets/homePage.PNG" alt="Home Page" width=80%>
 
