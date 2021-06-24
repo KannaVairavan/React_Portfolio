@@ -22,9 +22,9 @@ const Home=()=>{
 
                             <div className="Icons">
                                 <FaGithub size='35px' 
-                                onClick={handleURL("https://github.com/KannaVairavan/Portfolio.git")} className="icon"/>
+                                onClick={handleURL("https://github.com/KannaVairavan")} className="icon"/>
                                 <FaLinkedin  size='35px' 
-                                onClick={handleURL("https://kannavairavan.github.io/Portfolio/index.html")} className="icon"/>
+                                onClick={handleURL("https://www.linkedin.com/in/kanna-vairavan-5470b4197")} className="icon"/>
                                 
                                 <a href={ resdoc1 } target="_blank" className="btn btn-light btn-sm icon" role="button"   aria-pressed="true">    <strong>Resume</strong></a>
                                
