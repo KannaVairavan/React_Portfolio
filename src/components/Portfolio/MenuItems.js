@@ -19,11 +19,11 @@ function MenuItems({menuItem}) {
                         
                         <ul className="hover-items">
                                 <li>
-                                    <a href={item.link1}>{item.icon1}</a>
+                                    <a href={item.link1} target={"_blank"}>{item.icon1}</a>
                                    
                                 </li>
                                 <li>
-                                    <a href={item.deployed}>{"Deployed"}</a>
+                                    <a href={item.deployed } target={"_blank"}>{"Deployed"}</a>
                                    
                                 </li>
                               

@@ -4,6 +4,8 @@ import prj3 from "./../../img/TechBlog.gif";
 import prj4 from "./../../img/Curatio_Playlist.PNG";
 import prj5 from "./../../img/TeamMember-Outputfile.png";
 import prj6 from "./../../img/workoutTracker.gif";
+import prj7 from "../../img/Road-Tripper.PNG";
+import prj8 from "../../img/Book_Search.PNG";
 const Projects=[
     {
       "id": 1,
@@ -20,8 +22,8 @@ const Projects=[
                     "Clear favorite stocks and cryptocurrencies",
                     "Search current stock price and cryptocurrency"],
       "features":["HTTP requests (using the Fetch API)","Event listener (onclick)","Object, function, array, for loop and if condition","Dynamically create new DOM elements","Local storage"],
-      "deployed":"https://xander-deanna.github.io/project-1-group-7/index.html",
-      "link1":"https://github.com/xander-deanna/project-1-group-7",
+      "deployed":"https://kannavairavan.github.io/Tradify.io/",
+      "link1":"https://github.com/KannaVairavan/Tradify.io.git",
       
 
     },
@@ -97,6 +99,33 @@ const Projects=[
       "features": ["node.js", "Express", "mongoose", "morgan "],
       "deployed":"https://limitless-mountain-40875.herokuapp.com/",
       "link1":"https://github.com/KannaVairavan/Workout_Tracker.git"
+
+    }
+    ,
+    {
+      "id": 7,
+      "title": "Road Trippers",
+      "category": 'React',
+      "image":prj7,
+      "icon1":'Repo',
+      "description": "This application renders information about local parks, restaurants, tourist attractions, RV parks, and much more near their desired destination. Logged in user can save their trip to dashboard.",
+      "userstory": " ",
+      "features": ["React JS", "Material UI (CSS)", "Road goat API", "Google places API", "Map GL", "MongoDB", "mongoose", "Axios", "JSON Web Token", "bcrypt", "Bootstrap"],
+      "deployed":"https://enigmatic-taiga-76938.herokuapp.com/",
+      "link1":"https://github.com/KannaVairavan/React_Employee_Directory.git"
+
+    },
+    {
+      "id": 8,
+      "title": "Book Search",
+      "category": 'React',
+      "image":prj8,
+      "icon1":'Repo',
+      "description": "This application uses React components, helper/util functions, and utilize React lifecycle methods to query and display books based on user searches.",
+      "userstory": " ",
+      "features": ["node.js", "Express", "mongoose", "React", "Axios", "Bootstrap"],
+      "deployed":"https://peaceful-headland-84308.herokuapp.com/",
+      "link1":"https://github.com/KannaVairavan/Books-Search.git"
 
     }
   ]
