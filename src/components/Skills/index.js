@@ -40,7 +40,7 @@ const Skils=()=>{
                 <p>
                     Below are some programming languages, toolkits, frameworks and libraries that I worked with.
                 </p>
-                <div> <img className="imgstyle img-fluid rounded mx-auto d-block" src={codeThinking} alt="Code Thinking"></img> </div>
+               
                 <div className="Container">
                     
                     
@@ -52,6 +52,7 @@ const Skils=()=>{
                         )
                     })}
                 </div>
+                <div className="imgstyle"> <img className="img-fluid  rounded" src={codeThinking} alt="Code Thinking"></img> </div>
 
             
         </div>

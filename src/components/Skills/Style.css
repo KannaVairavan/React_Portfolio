@@ -38,6 +38,8 @@
 }
 
 .Skills .imgstyle {
-  padding-bottom: 2%;
+  height: 30%;
   position: relative;
+  bottom: 2%;
+  left: 10%;
 }
