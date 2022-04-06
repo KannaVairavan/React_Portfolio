@@ -13,7 +13,7 @@ const About=()=>{
                         Innovative thinker and talented Full-Stack Web Developer; 
                         able to work with tight deadlines and manage competing priorities; 
                         an ultimate team player with an impeccable work ethic. Endeavoring 
-                        to apply a 22-year track record of innovation and success creating 
+                        to apply a 23-year track record of innovation and success creating 
                         and managing legacy software based solutions to the web development.
                     </p>
                     

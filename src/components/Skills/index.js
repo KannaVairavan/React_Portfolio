@@ -6,7 +6,7 @@ const listTitleStyle={fontWeight:900, color:'#9B1FE8', marginBottom:'4px'}
 const backendSkills=
     <ul>
         <li style={listTitleStyle}>BACKEND</li>
-        <li>SQL - Sequelize   </li>
+        <li>SQL - Sequelize - GraphQL   </li>
         <li>Mongo Db- Mongoose</li>
         <li>NodeJS - Express</li>
     </ul>
@@ -22,7 +22,7 @@ const otherSkills=
         <ul>
             <li style={listTitleStyle}>OTHER</li>
             <li>Git - Heroku - Azure DevOps - Trello </li>
-            <li>VB.NET - Visual Basic 6 </li>
+            <li>VB.NET - Visual Basic 6 - C# </li>
             <li>Microsoft Access - VBA</li>
             
         </ul>
